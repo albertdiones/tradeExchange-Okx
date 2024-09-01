@@ -1,0 +1,18 @@
+{
+  "name": "trade exchange: Okx",
+  "module": "okx.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "jest": "^29.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "add_logger": "^0.0.23",
+    "cache-via-redis": "^0.0.1",
+    "tradeExchanges": "https://github.com/albertdiones/tradeExchanges.git",
+    "nonChalant": "https://github.com/albertdiones/nonChalant.git"
+  }
+}
